@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# JDKs and heavy binaries
+jdk17/
+jdk21/
+jdk21.zip
+*.zip
+*.tar
+*.gz
+
+# Compiled APKs (we host these on GitHub Releases!)
+*.apk
+
+# Log files and crash reports
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+Thumbs.db
+.DS_Store
+
+# Android build outputs and caches
+.gradle/
+build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/assets/public/
